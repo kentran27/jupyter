@@ -1,0 +1,74 @@
+# Metadata for Fares for MRT and LRT
+---
+Identifier: 'a62754f3-5e83-411d-a601-b8b522872fa7'
+Name: 'fare-structure-north-south-and-east-west-lines-and-lrts-wef-27-december-2015'
+Title: 'Fares for MRT and LRT'
+Description: 'Fare structure for MRT and LRT (cents)'
+Topics:
+  - 'Transport'
+Keywords:
+  - 'fare'
+  - 'public transport'
+  - 'train'
+Publisher:
+  Name: 'Public Transport Council'
+  Admin 1:
+    Name: 'Teh Mei Boon'
+    Department: 'Policy & Regulation'
+    Email: 'TEH_mei_boon@ptc.gov.sg'
+Sources:
+  - 'Public Transport Council'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2016-12-30 to 2017-12-29'
+Last Updated: '2017-02-06T06:56:05.914370'
+Resources:
+  -
+    Identifier: '70f568d2-85a4-4926-ab7a-e28c7728b6c0'
+    Title: 'Fares for MRT and LRT (Effective from 30 December 2016)'
+    Url: 'https://storage.data.gov.sg/fare-structure-north-south-and-east-west-lines-and-lrts-wef-27-december-2015/resources/fares-for-mrt-and-lrt-effective-from-30-december-2016-2017-01-03T10-19-43Z.csv'
+    Format: 'CSV'
+    Coverage: '2016-12-30 to 2017-12-29'
+    Last Updated: '2017-01-03T10:19:43.963275'
+    Schema:
+      -
+        Name: 'distance'
+        Title: 'Distance'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'single_trip_ticket_fare_per_ride'
+        Title: 'Single Trip Ticket Fare Per Ride'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'cent'
+      -
+        Name: 'adult_card_fare_per_ride'
+        Title: 'Adult Card Fare Per Ride'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'cent'
+      -
+        Name: 'senior_citizen_card_fare_per_ride'
+        Title: 'Senior Citizen Card Fare Per Ride'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'cent'
+      -
+        Name: 'student_card_fare_per_ride'
+        Title: 'Student Card Fare Per Ride'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'cent'
+      -
+        Name: 'workfare_transport_concession_card_fare_per_ride'
+        Title: 'Workfare Transport Concession Card Fare Per Ride'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'cent'
+      -
+        Name: 'persons_with_disabilities_card_fare_per_ride'
+        Title: 'Persons With Disabilities Card Fare Per Ride'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'cent'
